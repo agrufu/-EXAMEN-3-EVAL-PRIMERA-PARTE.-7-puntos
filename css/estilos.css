@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lavender;
+}
+
+header {
+    margin: 5px;
+    padding: 5px;
+    background-color: lavender;
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+#origen, #destino {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-left: auto;
+}
+
+#destino {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+input {
+    padding: 5px;
+    width: 320px;
+    border-radius: 5px;
+    border-color: rgba(151, 151, 151, 0.5);
+}
+
+#media {
+    background-color: rgb(231, 233, 233);
+}
+
+#calcular {
+    background-color: #008cba;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(255, 205, 42);
+    border-top: solid rgb(190, 86, 0);
+    text-align: left;
+    margin-top: 10px;
+}
+
+#footer_origen, #footer_destino {
+    width: 350px;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+#footer_destino {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+p {
+    padding: 5px;
+}

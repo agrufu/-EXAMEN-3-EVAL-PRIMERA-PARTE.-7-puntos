@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Calculadora de medias</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de medias</h1>
+    </header>
+    <main class="contenedor">
+        <div id="origen">
+            <form id="captura_notas">
+                <label for="programacion">Programación</label>
+                <input type="text" name="programacion" id="programacion">
+                <label for="bbdd">Bases de datos</label>
+                <input type="text" name="bbdd" id="bbdd">
+                <label for="eedd">Entornos de desarrollo</label>
+                <input type="text" name="eedd" id="eedd">
+                <label for="llmm">Lenguajes de marcas</label>
+                <input type="text" name="llmm" id="llmm">
+                <br>
+                <br>
+                <button id="calcular" onclick="return CalcularMedia()">Calcular</button>
+            </form>
+        </div>
+        <div id="destino">
+            <form id="muestra_datos">
+                <label for="media">Media</label>
+                <input type="text" name="media" id="media" readonly>
+            </form>
+        </div>
+    </main>
+    <footer class="contenedor">
+        <div id="footer_origen">
+            <p>Un producto realizado por @grufu</p>
+            <p>Dentro del módulo LLMM</p>
+        </div>
+        <div id="footer_destino">
+            <p>Dirección: Carrer de Dolores Ibárruri, 32</p>
+            <p>46920 Mislata, Valencia</p>
+        </div>
+    </footer>
+    <script src="./js/CalcularMedia.js"></script>
+</body>
+
+</html>
