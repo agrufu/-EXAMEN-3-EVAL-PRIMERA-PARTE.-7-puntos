@@ -32,24 +32,30 @@ header {
 
 #destino {
     margin-left: 20px;
-    margin-right: 200px;
 }
 
 label {
     display: block;
     padding: 10px;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 input {
     padding: 5px;
-    width: 320px;
+    margin-left: 10px;
+    width: 300px;
     border-radius: 5px;
     border-color: rgba(151, 151, 151, 0.5);
 }
 
 #media {
     background-color: rgb(231, 233, 233);
+}
+
+#media, #textarea {
+    margin-left: 10px;
+
+
 }
 
 #calcular {
