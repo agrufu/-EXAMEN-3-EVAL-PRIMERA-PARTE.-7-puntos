@@ -32,14 +32,14 @@ function CalcularMedia() {
         var prog_result = "-Programación: " + "\t\t SUSPENDIDA\n";
         console.log(prog_result);        
     }else{
-        prog_result = "-Programación: " + "\t\t APROBADA\n";
+        prog_result = "-Programación: " + "\t APROBADA\n";
         console.log(prog_result);
     }
     if (bbdd < 5) {
         var bbdd_result = "-Bases de Datos: " + "\t SUSPENDIDA\n";
         console.log(bbdd_result);        
     }else{
-        bbdd_result = "-Bases de Datos: " + "\t\t APROBADA\n";
+        bbdd_result = "-Bases de Datos: " + "\t APROBADA\n";
         console.log(bbdd_result);
     }
     if (eedd < 5) {
@@ -53,7 +53,7 @@ function CalcularMedia() {
         var llmm_result = "-Lenguajes de Marcas: " + "\t SUSPENDIDA\n";
         console.log(llmm_result);        
     }else{
-        llmm_result = "-Lenguajes de Marcas: " + "\t\APROBADA\n";
+        llmm_result = "-Lenguajes de Marcas: " + "\t APROBADA\n";
         console.log(llmm_result);
     }
 
