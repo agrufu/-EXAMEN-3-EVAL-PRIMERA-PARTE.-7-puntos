@@ -32,7 +32,7 @@ function CalcularMedia() {
         var prog_result = "-Programación: " + "\t\t SUSPENDIDA\n";
         console.log(prog_result);        
     }else{
-        prog_result = "-Programación: " + "\t APROBADA\n";
+        prog_result = "-Programación: " + "\t\t APROBADA\n";
         console.log(prog_result);
     }
     if (bbdd < 5) {
@@ -46,7 +46,7 @@ function CalcularMedia() {
         var eedd_result = "-Entornos de Desarrollo: " + "SUSPENDIDA\n";
         console.log(eedd_result);        
     }else{
-        eedd_result = "-Entornos de Desarrollo: " + "\t APROBADA\n";
+        eedd_result = "-Entornos de Desarrollo: " + "APROBADA\n";
         console.log(eedd_result);
     }
     if (llmm < 5) {
