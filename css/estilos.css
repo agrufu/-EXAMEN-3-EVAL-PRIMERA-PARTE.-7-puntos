@@ -24,7 +24,7 @@ header {
 #origen, #destino {
     border: 1px solid black;
     width: 350px;
-    height: 350px;
+    height: 400px;
     padding: 10px;
     background-color: aliceblue;
     margin-left: auto;
@@ -48,13 +48,18 @@ input {
     border-color: rgba(151, 151, 151, 0.5);
 }
 
-#media {
+#media, #mediasining {
     background-color: rgb(231, 233, 233);
 }
 
-#media, #textarea {
+#media, #mediasining, #textarea {
     margin-left: 10px;
 
+
+}
+
+.ing {
+    color:green;
 
 }
 

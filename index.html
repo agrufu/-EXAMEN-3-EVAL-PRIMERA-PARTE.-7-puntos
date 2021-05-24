@@ -26,6 +26,8 @@
                 <input type="text" name="eedd" id="eedd">
                 <label for="llmm">Lenguajes de marcas</label>
                 <input type="text" name="llmm" id="llmm">
+                <label for="ing"><span class="ing">Inglés</span></label>
+                <input type="text" name="ing" id="ing">
                 <br>
                 <br>
                 <button id="calcular" onclick="return CalcularMedia()">Calcular</button>
@@ -33,7 +35,9 @@
         </div>
         <div id="destino">
             <form id="muestra_datos">
-                <label for="media">Media</label>
+                <label for="mediasining">Media sin Inglés</label>
+                <input type="text" name="mediasining" id="mediasining" readonly>
+                <label for="media">Media con Inglés</label>
                 <input type="text" name="media" id="media" readonly>
                 <textarea name="textarea" id="textarea" cols="40" rows="10"></textarea>
             </form>
